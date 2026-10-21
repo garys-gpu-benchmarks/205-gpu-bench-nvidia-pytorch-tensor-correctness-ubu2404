@@ -182,7 +182,7 @@
   {
     "field_name": "PyTorch Version",
     "source_file": "BenchmarkSpecDefinitions.xlsx::Workload_Definitions",
-    "value": "PyTorch 2.7.1+cu128"
+    "value": "PyTorch 2.13.0+cu130"
   },
   {
     "field_name": "torchvision Version",
