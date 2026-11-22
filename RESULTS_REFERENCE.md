@@ -11,9 +11,9 @@ Reference results from the validation run on the system shown in each section (r
 ## smoke
 
 - **System:** 1× NVIDIA H100 80GB HBM3 (81559 MiB) · Intel(R) Xeon(R) Platinum 8470 · Ubuntu 24.04.5 LTS · kernel 6.8.0-149-generic · driver 595.112.07
-- **Run:** 2026-11-22T10:44:35Z · status **PASS** (exit 0)
-- **Time (mm:ss):** setup 01:52 · benchmark 00:05 · whole run 02:03
-- **Source:** run 205_20261122_104435
+- **Run:** 2026-11-22T14:05:35Z · status **PASS** (exit 0)
+- **Time (mm:ss):** setup 01:29 · benchmark 00:04 · whole run 01:41
+- **Source:** run 205_20261122_140535
 - **Command:** `bash run_benchmark.sh --smoke --device-id 0 --op-name matmul,conv2d --dtype f16_r --shape matmul=1x128x128;conv2d=1x3x32x32 --rtol 0.02 --atol 0.1 --num-iterations 2 --seed 42`
 
 | # | Metric | Result |
